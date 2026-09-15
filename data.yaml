@@ -1,0 +1,12 @@
+nc: 10
+names: 
+  0: Septoria_leaf_spot
+  1: Healthy
+  2: Early_blight
+  3: Late_blight
+  4: Fusarium_wilt
+  5: Verticillium_wilt
+  6: Leaf_mold
+  7: Bacterial_spot
+  8: Yellow_leaf_curl_virus
+  9: Spider_mites
