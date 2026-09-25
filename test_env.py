@@ -3,10 +3,8 @@ from ultralytics import YOLO
 def main():
     print("--- KIỂM TRA MÔI TRƯỜNG YOLOV11 ---")
     
-    # Load mô hình YOLO11 Nano phiên bản mới nhất
     model = YOLO("yolo11n.pt")
     
-    # Hiển thị thông tin mô hình (phục vụ cho việc điền số liệu bảng N/S/M/L/X)
     model.info()
 
     # Chạy train thử nghiệm 1 epoch với tập dữ liệu coco8

@@ -1,12 +1,19 @@
-nc: 10
-names: 
-  0: Septoria_leaf_spot
-  1: Healthy
-  2: Early_blight
-  3: Late_blight
-  4: Fusarium_wilt
-  5: Verticillium_wilt
-  6: Leaf_mold
-  7: Bacterial_spot
-  8: Yellow_leaf_curl_virus
-  9: Spider_mites
+# Đường dẫn tuyệt đối hoặc tương đối tới thư mục Balanced_Dataset
+# Nên dùng đường dẫn tuyệt đối để tránh lỗi khi đổi thư mục chạy code
+path: /content/Balanced_Dataset
+
+# Các thư mục con chứa ảnh
+train: images/train
+val: images/val
+test: images/test
+
+# Số lượng lớp (Classes)
+nc: 5
+
+# Tên của từng lớp theo đúng thứ tự ID từ 0 đến 4
+names:
+  0: "Gi sat"
+  1: "Dom mat cua"
+  2: "Sau duc la"
+  3: "Nhen do"
+  4: "La khoe manh"
